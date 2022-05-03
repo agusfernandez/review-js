@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.first-step .second-step{
+    margin-top:10px;
+}
+
+input{
+    width: 30%;
+}
