@@ -193,3 +193,17 @@ childNode // me devuelve todos los hijos -> estos nodesList NO ES UN ARRAY
 //me devuelve las etiequetas html
 children // ESTO NO SE PUEDE RECORRER con un forEACH
 
+# Nivel Medio de Javascript
+
+## Objeto Window
+
+-objeto mas importante del dom ya que contiene una gran cantidad de elementos. -> hace referencia a la ventana de windows
+Hereda propiedades de element.target
+
+1) open -> abrir una ventana nueva
+2) close -> cierra la ventana emergente
+3) closed -> verifica si la ventana esta cerrada o no
+4) stop -> detiene de cargar lo q esta cargando
+5) prompt
+6) alert
+7) confirm -> estas seguro que queres cerrar esta pagina?
