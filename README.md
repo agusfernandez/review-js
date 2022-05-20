@@ -1,6 +1,6 @@
 # Introduccion de Javascript
 
-## Primeros Pasos
+### Primeros Pasos
 -variables: const/ let -> es un espacio que se guarda en memoria para usarlo mas adelante
 -tipos de datos: string, boolean(0,1 // true-false), number
 -tipos de datos: undefined, null, nan // error o variables no definidas
@@ -10,37 +10,37 @@
 -informacion que llegue al user: prompt
 -prompt: permite pasar un string a numero
 
-## Operadores de Asignacion
+### Operadores de Asignacion
 asigna un valor a su operando izquierdo basandose en su operando derecho.
 x=y
 x+=y
 x-=y
 x &&= y	
 
-## Operadores Aritmeticos
+### Operadores Aritmeticos
 Toma un valor numerico y asigna un resultado numerico
 -Incremento
 -Decremento
 
-## Concatenacion
+### Concatenacion
 Union de strings
 concat / funcion de js exclusiva para strings y te permite concatenar / .concat _ es un metodo de cadena
 `${}` Backtikcs
 
-## Operadores Intermedios
+### Operadores Intermedios
 -Operadores de Comparacion // comparan dos valores y devuelven un boolean
 -Operacion logicos
 
-## Operadores Logicos
+### Operadores Logicos
 -and /or/ not 
 
-## Concatenacion
+### Concatenacion
 que se ejecute un codigo un pedazo de codigo segun una condicion
 
-## Arrays
+### Arrays
 let arrays=[]
 
-## Arrays Asociativos
+### Arrays Asociativos
 let pc ={
     nombre: "augus",
     edad: 2,
@@ -48,7 +48,7 @@ let pc ={
 }
 console.log(nombre["nombre˝];
 
-## Bucles
+### Bucles
 1) while // puede generar un loop infinito _ clave sumar uno // pregunta siempre y hasta que no sea falsa no para
 numero=0;
 while (numero<4){
@@ -64,10 +64,10 @@ while (numero<4){
 6) for of // devuelve el valor directamnente
 7) label
 
-## Function
+### Function
 return> tiene que devolvernos un tipo de dato;
 
-## POO
+### POO
 programacion de objetos
 -clase / fabrica de objetos
 -las clases crean los objetos
@@ -88,7 +88,7 @@ Caracteristicas
 .setter > obtener un valor
 .getter > cambiarlo o definirlo
 
-## Metodos de cadena
+### Metodos de cadena
 -concat() > une una o mas cadenas
 -startsWith() > devulve un boolean
 -endsWith()> verifica que termine como lo decimos 
@@ -104,7 +104,7 @@ Caracteristicas
 -trimEnd() elimina los espacios q esten al final
 
 
-## Metodos de arrays
+### Metodos de arrays
 -pop() //el ultimo elemento que saque
 -shift() //elimina el primer elemento
 -push() // agregar un elemento a un array al final
@@ -122,7 +122,7 @@ Caracteristicas
 -forEach() // me da indefinido si agrego una condicion
 -map() // crea un nuevo array con los resultados de la llamada de la funcion creada
 
-## Objeto Math
+### Objeto Math
 -sqrt() //raiz cuadrada de
 -cbrt() //raiz cubica
 -max() //reciben numeros y me devuelve el mas grande
@@ -131,7 +131,7 @@ Caracteristicas
 -round() //te devuelve un numero redondeado
 -flooer() //redondea para abajo
 
-## DOM
+### DOM
 -nodo 
 tipos de nodos:
 1) document
@@ -195,7 +195,7 @@ children // ESTO NO SE PUEDE RECORRER con un forEACH
 
 # Nivel Medio de Javascript
 
-## Objeto Window
+### Objeto Window
 
 -objeto mas importante del dom ya que contiene una gran cantidad de elementos. -> hace referencia a la ventana de windows
 Hereda propiedades de element.target
@@ -207,3 +207,8 @@ Hereda propiedades de element.target
 5) prompt
 6) alert
 7) confirm -> estas seguro que queres cerrar esta pagina?
+8) screen-> es un objeto que te devuelve un monton de propiedades que uno puede acceder
+9) scroll-> desplaza la ventana  un lugar particular del documento
+19) resizeBy()
+20) moveTo()
+21) location // localiza un objeto
