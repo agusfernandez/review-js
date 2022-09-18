@@ -23,9 +23,9 @@ marvel.length;
 console.log(marvel.length);
 
 //los vectores arrancan en la posicion 0
-document.write(`el primer vengador es ${marvel[0]}<br/>`);
+console.log(`el primer vengador es ${marvel[0]}<br/>`);
 //mostrar el ultimo elemento del array--- ya sabemos q con el length devuelve todos los elementos dentro del vector y sabiendo q el primer elemento esta en cero, y asi le resto uno.
-document.write(`el ultimo vengador es ${marvel[marvel.length-1]}<br/>`);
+console.log(`el ultimo vengador es ${marvel[marvel.length-1]}<br/>`);
 
 // Push (agregar dentro del array un elemetno)
 marvel.push("Ant Man");
@@ -48,12 +48,12 @@ console.log(marvel);
 
 //lo quiero ver de otra forma, le da un formato diferente
 marvel.join(" , ");
-document.write(`Los vengadores son ${marvel}<br/>`);
+console.log(`Los vengadores son ${marvel}<br/>`);
 
 //juntar dos arrays
 const npnc= "Frank";
 const teamComplete= marvel.concat(teamcap, npnc);
-document.write(`El equipo unido son:  ${teamComplete}<br/>`);
+console.log(`El equipo unido son:  ${teamComplete}<br/>`);
 
 // const teamReverse= marvel.reverse();
 // console.log(teamReverse);
@@ -63,3 +63,18 @@ document.write(`El equipo unido son:  ${teamComplete}<br/>`);
 let array=["jorge", "luis" , "mariano"];
 let resultArray= array.pop();
 console.log(resultArray);
+
+
+//// es lo mismo decir esto
+const programadores = ["julio", "Pedro", "juans"];
+let nombres=[];
+nombres=[...programadores];
+console.log(nombres);
+
+//// que esto
+programadores.forEach((programador, posicion)=>{
+    nombres[posicion] = programador;
+}
+)
+
+console.log(programadores);
